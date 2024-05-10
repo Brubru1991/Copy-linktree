@@ -1,0 +1,105 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+header {
+    width: 100%;
+    height: 30px;
+    background-color: #EAEAEA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #333333;
+}
+h1 { 
+    color: #EAEAEA;
+}
+main {
+    flex: 1;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer {
+    width: 100%;
+    height: 30px;
+    background-color: #EAEAEA;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    color: #333333;
+}
+.container {
+    width: 360px;
+    height: 800px;
+    background-color: #333333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.profil-pic-container {
+    width: 186px;
+    height: 170px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+}
+.profil-pic {
+    width: auto;
+    height: 100%;
+    display: block;
+}
+.texte-container {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.button-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    flex-direction: column;
+    gap: 2rem;
+    
+}
+.button { 
+    color: #EAEAEA;
+    text-align: center;
+    height: 20px;
+   
+    
+}
+.texte {
+    color: #EAEAEA;
+    margin: 5px 0;
+}
+.icone-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.header-box {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+
+}
