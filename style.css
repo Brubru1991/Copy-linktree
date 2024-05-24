@@ -1,3 +1,4 @@
+/* ------------ Basic Tags----------- */
 body, html {
     margin: 0;
     padding: 0;
@@ -13,9 +14,14 @@ header {
     justify-content: center;
     align-items: center;
     color: #333333;
+
 }
 h1 { 
     color: #EAEAEA;
+    text-align: center;
+    font-family: 'roboto', sans-serif;
+    font-weight: 600;
+
 }
 main {
     flex: 1;
@@ -29,11 +35,32 @@ footer {
     width: 100%;
     height: 30px;
     background-color: #EAEAEA;
-    display: flex;
-    justify-content: end;
-    align-items: end;
-    color: #333333;
 }
+p {
+    color: #EAEAEA;
+    margin: 5px 0;
+    font-family: 'arial', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+
+}
+button {
+    background-color: #EAEAEA;
+    text-align: center;
+    border-radius: 5px;
+    width: 198px;
+    height: 53px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border: none;
+    font-family: 'arial', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+button :hover {
+    background-color: aqua;
+}
+/* ------------Custom class div---------- */
 .container {
     width: 360px;
     height: 800px;
@@ -46,8 +73,8 @@ footer {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); */
 }
-
 .profil-pic-container {
     width: 186px;
     height: 170px;
@@ -59,10 +86,10 @@ footer {
     align-self: center;
     align-items: center;
 }
-.profil-pic {
-    width: auto;
-    height: 100%;
-    display: block;
+.header-box {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
 }
 .texte-container {
     margin-bottom: 20px;
@@ -76,30 +103,31 @@ footer {
     justify-content: space-between;
     margin-bottom: 20px;
     flex-direction: column;
-    gap: 2rem;
-    
-}
-.button { 
-    color: #EAEAEA;
-    text-align: center;
-    height: 20px;
-   
-    
-}
-.texte {
-    color: #EAEAEA;
-    margin: 5px 0;
+    gap: 1rem; 
 }
 .icone-container {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    margin-top: 20px;
+    margin-top: 40px;
+    gap: 10px;
 }
-
-.header-box {
-    width: 100%;
-    align-items: center;
+/* ------------Custom class elements---------- */
+.profil-pic {
+    width: auto;
+    height: 100%;
+    display: block;
+}
+.icone {
+    width: 46px;
+    height: 34px;
+    background-color: #EAEAEA;
+    border-radius: 20px;
+    display: flex;
     justify-content: center;
-
+    align-items: center;
+    /* box-shadow: 0 0 5px rgba(255, 255, 255, 0.5); */
+}
+.twitter-icon {
+    font-family: 'font awesome 5 brands';
 }
